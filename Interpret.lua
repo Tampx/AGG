@@ -1,4 +1,4 @@
-t_ = load
+call = load
 function interpret(encoded)
     local bit32 = require("bit32")
     local custom_table = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-@'
